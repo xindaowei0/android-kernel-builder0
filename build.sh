@@ -32,7 +32,7 @@ installDependencies
 
 ## clone Kernel
 echo "Cloning Kernel"
-git clone https://github.com/divyam234/android_kernel_asus_sdm660 -b eleven kernel
+git clone https://github.com/MiCode/Xiaomi_Kernel_OpenSource -b dagu-s-oss
 
 ##------------------------------------------------------##
 ##----------Basic Informations, COMPULSORY--------------##
@@ -52,7 +52,7 @@ DEVICE="X01BD"
 DEFCONFIG=X01BD_defconfig
 
 # Show manufacturer info
-MANUFACTURERINFO="ASUSTek Computer Inc."
+MANUFACTURERINFO="xidaomi "
 
 # Kernel Variant
 VARIANT=perf
